@@ -2,11 +2,13 @@
 	div.firstsection div{
 	margin-left: 0em;
 	margin-top: 8em;
+	background-position: center;
 	}
 
 	div.secondsection{
 	padding-left: 0em;
 	background-repeat: repeat-y;
+	background-position: center top;
 	height: 30em;
 	}
 
@@ -14,6 +16,9 @@
 	padding-left: 0em;
 	background-repeat: repeat-y;
 	height: 30em;
+	background: url('images/rocket.jpg');
+	background-size: cover;
+	background-position: center;
 	}
 }
 
@@ -33,6 +38,8 @@
 	padding-left: 8em;
 	height: 20em;
 	background-repeat: no-repeat;
+	background: url('images/rocket.jpg');
+	background-size: cover;
 	}
 }
 
@@ -112,9 +119,8 @@ div.secondsection p{
 }
 
 div.thirdsection{
+	margin-top: -1em;
 	clear: both;
-	background: url('images/rocket.jpg');
-	background-size: cover;
 }
 
 div.thirdsection h2{
