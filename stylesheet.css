@@ -2,14 +2,38 @@
 	div.firstsection div{
 	margin-left: 0em;
 	margin-top: 8em;
-}
+	}
+
+	div.secondsection{
+	padding-left: 0em;
+	background-repeat: repeat-y;
+	height: 30em;
+	}
+
+	div.thirdsection{
+	padding-left: 0em;
+	background-repeat: repeat-y;
+	height: 30em;
+	}
 }
 
 @media screen and (min-width: 768px){
 	div.firstsection div{
 	margin-left: 3em;
 	margin-top: 8em;
-}
+	}
+
+	div.secondsection{
+	padding-left: 8em;
+	height: 18em;
+	background-repeat: no-repeat;
+	}
+
+	div.thirdsection{
+	padding-left: 8em;
+	height: 20em;
+	background-repeat: no-repeat;
+	}
 }
 
 html{
@@ -52,6 +76,7 @@ div.firstsection div h1, div h3{
 	font-weight: bold;
 	color: white;
 	text-shadow: 0 3px 3px rgba(0, 0, 0, 1);
+	/*text-shadow: 0 -3px 3px rgba(0, 0, 0, 1);*/
 }
 
 div.firstsection aside{
@@ -60,7 +85,51 @@ div.firstsection aside{
 	color: white;
 }
 
+div.secondsection{
+	font-family: Shift;
+	width: 100%;
+	background-color: #333;
+}
 
+div.secondsection{
+	background: url('images/nightsky2.jpg');
+	background-size: cover;
+	margin-top: -1em;
+}
+
+div.secondsection h2{
+	font-family: Shift;
+	font-weight: bold;
+	text-shadow: 0 3px 3px rgba(0, 0, 0, 1);
+	color: white;
+}
+
+div.secondsection p{
+	font-family: Garamond;
+	color: white;
+	text-shadow: 0 3px 3px rgba(0, 0, 0, 1);
+	font-size: 1.28rem;
+}
+
+div.thirdsection{
+	clear: both;
+	background: url('images/rocket.jpg');
+	background-size: cover;
+}
+
+div.thirdsection h2{
+	font-family: Shift;
+	font-weight: bold;
+	text-shadow: 0 3px 3px rgba(0, 0, 0, 1);
+	color: white;
+}
+
+div.thirdsection p{
+	font-family: Garamond;
+	color: white;
+	text-shadow: 0 3px 3px rgba(0, 0, 0, 1);
+	font-size: 1.28rem;
+}
     /*          
   nav .button {
       border: 0;
