@@ -1,8 +1,15 @@
 @media screen and (max-width: 767px){
+	
+	div.firstsection{
+	background: url('images/moon8.jpg');
+	background-position: 92% 10%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+
 	div.firstsection div{
 	margin-left: 0em;
 	margin-top: 8em;
-	background-position: center;
 	}
 
 	div.secondsection{
@@ -26,6 +33,12 @@
 	div.firstsection div{
 	margin-left: 3em;
 	margin-top: 8em;
+	}
+
+	div.firstsection{
+	background: url('images/moon8.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 	}
 
 	div.secondsection{
@@ -70,10 +83,10 @@ body {
 }
 
 div.firstsection{
-	background: url('images/moon8.jpg');
-	font-family: Shift;
+	/*background: url('images/moon8.jpg');
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
+	font-family: Shift;
 	width: 100%;
 	height: 40em;
 }
@@ -133,7 +146,7 @@ div.thirdsection h2{
 div.thirdsection p{
 	font-family: Garamond;
 	color: white;
-	text-shadow: 0 3px 3px rgba(0, 0, 0, 1);
+	text-shadow: 0 -3px 3px rgba(0, 0, 0, 1);
 	font-size: 1.28rem;
 }
     /*          
