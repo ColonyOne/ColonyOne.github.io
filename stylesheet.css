@@ -149,6 +149,67 @@ div.thirdsection p{
 	text-shadow: 0 -3px 3px rgba(0, 0, 0, 1);
 	font-size: 1.28rem;
 }
+
+i.fa-globe{
+	color:skyblue;
+	font-size: 1.23em;
+}
+
+i.fa-space-shuttle{
+	font-size:1.4em;
+}
+
+i.fa-rocket{
+	color: red;
+	font-size: 1.4em;
+}
+
+div.fourthsection{
+	margin-top: -1em;
+	text-align: center;
+	background-image: url('images/radar.jpg');
+	background-position: center top;
+	background-size: cover;
+	width: 100%;
+	height: 15em;
+}
+
+div.fourthsection h2{
+	margin-left: 2em;
+	text-align: left;
+	font-family: Shift;
+	font-weight: bold;
+	text-shadow: 0 3px 3px rgba(0, 0, 0, 1);
+	color: white;
+}
+
+div.fourthsection i{
+	text-align: center;
+	font-size: 10em;
+	color: lime;
+}
+
+div.fourthsection i.fa-google-plus-square{
+	margin-right: 3%;
+}
+
+div.fifthsection{
+	margin-top: -1em;
+	width: 100%;
+	height: 15em;
+	background-image: url('images/satellitedish4.jpg');
+	background-position: center top;
+	background-size: cover;
+}
+
+div.fifthsection h2{
+	margin-left: 2em;
+	text-align: left;
+	font-family: Shift;
+	font-weight: bold;
+	text-shadow: 0 3px 3px rgba(0, 0, 0, 1);
+	color: white;
+}
     /*          
   nav .button {
       border: 0;
