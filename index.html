@@ -12,10 +12,11 @@
  </head>
 
   <body>
-              
+      
+      <div class="contain-to-grid sticky">        
 	<nav class="top-bar" data-topbar> 
 		<ul class="title-area"> 
-			<li class="name active"> <h1><a href="#"><i class="fa fa-globe"></i> ColonyOne</a></h1> </li> <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone --> 
+			<li class="name active"> <h1><a href="#return"><i class="fa fa-globe"></i> ColonyOne</a></h1> </li> <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone --> 
 			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li> 
 		</ul> 
 		<section class="top-bar-section"> <!-- Right Nav Section -->
@@ -33,8 +34,9 @@
 			 	<!--<ul class="left"> <li><a href="#">Left Nav Button</a></li> </ul> -->
 		</section> 
 	</nav>      
+	</div>
 
-  	<div class="firstsection">
+  	<div class="firstsection" id="return">
 	  	<div class="medium-7 large-6 columns">
 			<h1>We. Will. Return.</h1><br>
 			<!--<h3>Colony One <br class="hide-for-small">The frontier in extraterrestrial colonization</h3>-->
@@ -70,7 +72,7 @@
 	  	 <div class="fifthsection" id="contact">
 	  	 <h2>Contact Us</h2>
 	  	 	<div class="contactform">
-	  		<form name="order_form" method="POST" action="mailcontact.php" data-abide> <div class="name-field"> <label>Your name <small>required</small> <input type="text" name="name" required pattern="[a-zA-Z]+"> </label> <small class="error">Name is required and must be a string.</small> </div> <div class="email-field"> <label>Email <small>required</small> <input type="email" name="email" required> </label> <small class="error">An email address is required.</small> </div> 
+	  		<form name="order_form" method="POST" action="http://rexdef.com/mailcontact.php" data-abide> <div class="name-field"> <label>Your name <small>required</small> <input type="text" name="name" required pattern="[a-zA-Z]+"> </label> <small class="error">Name is required and must be a string.</small> </div> <div class="email-field"> <label>Email <small>required</small> <input type="email" name="email" required> </label> <small class="error">An email address is required.</small> </div> 
 	  		<div class="row">
       			<div class="large-12 columns">
        			 <label for="remarks">Message</label>

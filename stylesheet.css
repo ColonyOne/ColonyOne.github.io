@@ -93,6 +93,10 @@ body {
 	width: 100%;
 }
 
+nav{
+	
+}
+
 @font-face{
 	font-family:Shift;
 	src:url("fonts/shift1.eot");
@@ -221,8 +225,6 @@ div.fourthsection i.fa-google-plus-square{
 	margin-right: 3%;
 }
 
-
-
 div.fifthsection h2{
 	margin-left: 2em;
 	text-align: left;
@@ -230,6 +232,10 @@ div.fifthsection h2{
 	font-weight: bold;
 	text-shadow: 0 3px 3px rgba(0, 0, 0, 1);
 	color: white;
+}
+
+div.contactform{
+	/*display: none;*/
 }
 
 div.contactform form label{
