@@ -242,6 +242,10 @@ div.contactform form label{
 	color: white;
 	text-shadow: 0 -3px 3px rgba(0, 0, 0, 1);
 }
+
+div.contactform textarea{
+	margin-left: -1em;
+}
     /*          
   nav .button {
       border: 0;
